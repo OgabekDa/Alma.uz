@@ -18,7 +18,7 @@
             include_once('controller/read.php');
             foreach($data_post as $key => $single_post):
         ?>
-            <div class="col-3">
+            <div class="col-3"> 
 
             <div class="card" style="width: 18rem;">
             <img src="img/<?= $single_post['img'] ?>" class="card-img-top" alt="<?= $single_post['img'] ?>">
